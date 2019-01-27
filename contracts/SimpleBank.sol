@@ -44,6 +44,7 @@ contract SimpleBank {
     /* Use the appropriate global variable to get the sender of the transaction */
     constructor() public {
         /* Set the owner to the creator of this contract */
+        // haha 
         owner = msg.sender;
     }
 
